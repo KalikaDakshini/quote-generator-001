@@ -1,18 +1,17 @@
-# Quote Generator Web App
+# Quote Generator
 
-## Overview
-This is a simple web application that generates a random inspirational quote each time the user clicks the 'New Quote' button. The app is designed to be lightweight and easy to use.
+This is a simple quote generator application that displays random quotes and announces changes via an ARIA live region. It also remembers the last displayed quote using localStorage.
 
 ## Files
-- `index.html`: The main HTML file that contains the structure of the web app.
-- `script.js`: The JavaScript file that handles the logic for generating and displaying quotes.
-- `quotes.txt`: A text file containing a list of inspirational quotes.
-- `LICENSE`: The MIT License for the project.
 
-## Setup
-1. Clone the repository or download the files.
-2. Open `index.html` in a web browser.
-3. Click the 'New Quote' button to display a random quote.
+- **index.html**: The main HTML file that structures the application.
+- **script.js**: The JavaScript file that handles the quote generation, localStorage management, and ARIA live region updates.
+- **main.py**: A placeholder Python file (not used in this app but included for structure).
+- **LICENSE**: The MIT License for the project.
 
-## Usage
-- Click the 'New Quote' button to get a new inspirational quote without reloading the page.
+## Features
+
+- Displays a random quote from a predefined list.
+- Announces quote changes using an ARIA live region for accessibility.
+- Shows the total number of quotes available.
+- Remembers the last displayed quote using localStorage, restoring it on page reload.
